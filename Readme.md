@@ -15,7 +15,7 @@ export PORT="8008"
 
 Run using docker:
 ```shell
-docker run -e RABBITMQ_DEFAULT_USER -e RABBITMQ_DEFAULT_PASS -e RABBITMQ_SERVER -e RABBITMQ_DEFAULT_VHOST joaomorenorf/hello-rabbitmq-app:1.0.0
+docker run -e RABBITMQ_DEFAULT_USER -e RABBITMQ_DEFAULT_PASS -e RABBITMQ_SERVER -e RABBITMQ_DEFAULT_VHOST -p 8008:8008 joaomorenorf/hello-rabbitmq-app:1.0.0
 ```
 
 Run directly:
